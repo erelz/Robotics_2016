@@ -1,5 +1,5 @@
 
-#include <Behaviours/WaypointSelectionBehaviour.h>
+#include "WaypointSelectionBehaviour.h"
 
 WaypointSelectionBehaviour::WaypointSelectionBehaviour(Robot* robot) : Behaviour(robot){
 	// TODO Auto-generated constructor stub

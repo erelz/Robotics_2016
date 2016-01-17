@@ -37,9 +37,9 @@ src/Main.d: ../src/Main.cpp ../src/Map.h ../src/PngUtils/PngUtil.h \
  ../src/Behaviours/Plans/../ForwardBehaviour.h \
  ../src/Behaviours/Plans/../ObstacleBehaviour.h \
  ../src/Behaviours/Plans/../WaypointSelectionBehaviour.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/WayPointsManager.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Robot.h \
- ../src/Behaviours/Plans/PlanDrive.h
+ ../src/Behaviours/Plans/../../WayPointsManager.h \
+ ../src/Behaviours/Plans/../../WayPointsManager.h \
+ ../src/Behaviours/../Robot.h ../src/Behaviours/Plans/PlanDrive.h
 
 ../src/Map.h:
 
@@ -147,8 +147,10 @@ src/Main.d: ../src/Main.cpp ../src/Map.h ../src/PngUtils/PngUtil.h \
 
 ../src/Behaviours/Plans/../WaypointSelectionBehaviour.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/WayPointsManager.h:
+../src/Behaviours/Plans/../../WayPointsManager.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Robot.h:
+../src/Behaviours/Plans/../../WayPointsManager.h:
+
+../src/Behaviours/../Robot.h:
 
 ../src/Behaviours/Plans/PlanDrive.h:

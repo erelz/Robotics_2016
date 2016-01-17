@@ -7,7 +7,7 @@
 #include "../ForwardBehaviour.h"
 #include "../ObstacleBehaviour.h"
 #include "../WaypointSelectionBehaviour.h"
-#include "WayPointsManager.h"
+#include "../../WayPointsManager.h"
 
 class PlanDrive: public Plan {
 	Behaviour* _beh[4];

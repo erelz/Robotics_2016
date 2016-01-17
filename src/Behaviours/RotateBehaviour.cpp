@@ -1,5 +1,5 @@
 
-#include <Behaviours/RotateBehaviour.h>
+#include "RotateBehaviour.h"
 #include <math.h>
 
 RotateBehaviour::RotateBehaviour(Robot* robot) : Behaviour(robot){

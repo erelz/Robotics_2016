@@ -1,7 +1,6 @@
 src/Behaviours/RotateBehaviour.d: ../src/Behaviours/RotateBehaviour.cpp \
- /home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/RotateBehaviour.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/Behaviour.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/../Robot.h \
+ ../src/Behaviours/RotateBehaviour.h ../src/Behaviours/Behaviour.h \
+ ../src/Behaviours/../Robot.h \
  /usr/local/include/player-2.0/libplayerc++/playerc++.h \
  /usr/local/include/player-2.0/libplayerc/playerc.h \
  /usr/local/include/player-2.0/libplayercore/player.h \
@@ -15,14 +14,14 @@ src/Behaviours/RotateBehaviour.d: ../src/Behaviours/RotateBehaviour.cpp \
  /usr/local/include/player-2.0/libplayerc++/playerclient.h \
  /usr/local/include/player-2.0/libplayerc++/playererror.h \
  /usr/local/include/player-2.0/libplayerc++/clientproxy.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/../Commons/RobotLocation.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/../Commons/Location.h
+ ../src/Behaviours/../Commons/RobotLocation.h \
+ ../src/Behaviours/../Commons/Location.h
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/RotateBehaviour.h:
+../src/Behaviours/RotateBehaviour.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/Behaviour.h:
+../src/Behaviours/Behaviour.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/../Robot.h:
+../src/Behaviours/../Robot.h:
 
 /usr/local/include/player-2.0/libplayerc++/playerc++.h:
 
@@ -50,6 +49,6 @@ src/Behaviours/RotateBehaviour.d: ../src/Behaviours/RotateBehaviour.cpp \
 
 /usr/local/include/player-2.0/libplayerc++/clientproxy.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/../Commons/RobotLocation.h:
+../src/Behaviours/../Commons/RobotLocation.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/../Commons/Location.h:
+../src/Behaviours/../Commons/Location.h:

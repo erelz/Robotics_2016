@@ -1,8 +1,7 @@
 src/Behaviours/WaypointSelectionBehaviour.d: \
  ../src/Behaviours/WaypointSelectionBehaviour.cpp \
- /home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/WaypointSelectionBehaviour.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/Behaviour.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/../Robot.h \
+ ../src/Behaviours/WaypointSelectionBehaviour.h \
+ ../src/Behaviours/Behaviour.h ../src/Behaviours/../Robot.h \
  /usr/local/include/player-2.0/libplayerc++/playerc++.h \
  /usr/local/include/player-2.0/libplayerc/playerc.h \
  /usr/local/include/player-2.0/libplayercore/player.h \
@@ -16,30 +15,29 @@ src/Behaviours/WaypointSelectionBehaviour.d: \
  /usr/local/include/player-2.0/libplayerc++/playerclient.h \
  /usr/local/include/player-2.0/libplayerc++/playererror.h \
  /usr/local/include/player-2.0/libplayerc++/clientproxy.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/../Commons/RobotLocation.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/../Commons/Location.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/WayPointsManager.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/WayPoints/WayPoint.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/WayPoints/../Commons/Location.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Commons/Location.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Commons/GridPosition.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Commons/../Globals.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Commons/MapObject.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Commons/GridPosition.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Commons/Location.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Commons/Utils.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Commons/MapObject.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Commons/../PngUtils/PngUtil.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Commons/../PngUtils/../Globals.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Commons/../PngUtils/../ConfigurationsManager.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Commons/../PngUtils/../Commons/RobotLocation.h \
- /home/colman/work/colman/IdanAndRonRobotics/src/Commons/../PngUtils/../Commons/MapObject.h
+ ../src/Behaviours/../Commons/RobotLocation.h \
+ ../src/Behaviours/../Commons/Location.h \
+ ../src/Behaviours/../WayPointsManager.h \
+ ../src/Behaviours/../WayPoints/WayPoint.h \
+ ../src/Behaviours/../WayPoints/../Commons/Location.h \
+ ../src/Behaviours/../Commons/Location.h \
+ ../src/Behaviours/../Commons/GridPosition.h \
+ ../src/Behaviours/../Commons/../Globals.h \
+ ../src/Behaviours/../Commons/MapObject.h \
+ ../src/Behaviours/../Commons/GridPosition.h \
+ ../src/Behaviours/../Commons/Utils.h \
+ ../src/Behaviours/../Commons/MapObject.h \
+ ../src/Behaviours/../Commons/../PngUtils/PngUtil.h \
+ ../src/Behaviours/../Commons/../PngUtils/../Globals.h \
+ ../src/Behaviours/../Commons/../PngUtils/../ConfigurationsManager.h \
+ ../src/Behaviours/../Commons/../PngUtils/../Commons/RobotLocation.h \
+ ../src/Behaviours/../Commons/../PngUtils/../Commons/MapObject.h
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/WaypointSelectionBehaviour.h:
+../src/Behaviours/WaypointSelectionBehaviour.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/Behaviour.h:
+../src/Behaviours/Behaviour.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/../Robot.h:
+../src/Behaviours/../Robot.h:
 
 /usr/local/include/player-2.0/libplayerc++/playerc++.h:
 
@@ -67,38 +65,36 @@ src/Behaviours/WaypointSelectionBehaviour.d: \
 
 /usr/local/include/player-2.0/libplayerc++/clientproxy.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/../Commons/RobotLocation.h:
+../src/Behaviours/../Commons/RobotLocation.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Behaviours/../Commons/Location.h:
+../src/Behaviours/../Commons/Location.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/WayPointsManager.h:
+../src/Behaviours/../WayPointsManager.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/WayPoints/WayPoint.h:
+../src/Behaviours/../WayPoints/WayPoint.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/WayPoints/../Commons/Location.h:
+../src/Behaviours/../WayPoints/../Commons/Location.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Commons/Location.h:
+../src/Behaviours/../Commons/Location.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Commons/GridPosition.h:
+../src/Behaviours/../Commons/GridPosition.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Commons/../Globals.h:
+../src/Behaviours/../Commons/../Globals.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Commons/MapObject.h:
+../src/Behaviours/../Commons/MapObject.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Commons/GridPosition.h:
+../src/Behaviours/../Commons/GridPosition.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Commons/Location.h:
+../src/Behaviours/../Commons/Utils.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Commons/Utils.h:
+../src/Behaviours/../Commons/MapObject.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Commons/MapObject.h:
+../src/Behaviours/../Commons/../PngUtils/PngUtil.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Commons/../PngUtils/PngUtil.h:
+../src/Behaviours/../Commons/../PngUtils/../Globals.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Commons/../PngUtils/../Globals.h:
+../src/Behaviours/../Commons/../PngUtils/../ConfigurationsManager.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Commons/../PngUtils/../ConfigurationsManager.h:
+../src/Behaviours/../Commons/../PngUtils/../Commons/RobotLocation.h:
 
-/home/colman/work/colman/IdanAndRonRobotics/src/Commons/../PngUtils/../Commons/RobotLocation.h:
-
-/home/colman/work/colman/IdanAndRonRobotics/src/Commons/../PngUtils/../Commons/MapObject.h:
+../src/Behaviours/../Commons/../PngUtils/../Commons/MapObject.h:

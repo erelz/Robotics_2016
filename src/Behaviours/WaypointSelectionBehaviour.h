@@ -4,7 +4,7 @@
 #define ACTIONSELECTWAYPOINT_H_
 
 #include "Behaviour.h"
-#include "WayPointsManager.h"
+#include "../WayPointsManager.h"
 
 class WaypointSelectionBehaviour: public Behaviour {
 private:
