@@ -26,7 +26,6 @@ void ConfigurationManager::init(const char* configFilePath) {
 
 
 void ConfigurationManager::ReadRobotSizeConfig(ifstream& confFile) {
-	// robot size (assume to be squared)
 	string parameterName;
 	string line;
 	string robotSizeCMStr;
@@ -37,7 +36,6 @@ void ConfigurationManager::ReadRobotSizeConfig(ifstream& confFile) {
 }
 
 void ConfigurationManager::ReadRobotStartLocationConfig(ifstream& confFile) {
-	// initial robot position
 	string parameterName;
 	string line;
 	string initXStr, initYStr, initYawStr;

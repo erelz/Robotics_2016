@@ -15,7 +15,8 @@ using namespace std;
 int main() {
 
 	ConfigurationManager* config = new ConfigurationManager();
-	const char *filePath = PARAMS_FILE_PATH;
+	const char *filePath = PARAMS_FILE_PATH
+	;
 	config->init(filePath);
 	config->printConfig();
 
@@ -26,11 +27,11 @@ int main() {
 	map.inflateObstacles();
 	map.printMap();
 
-	//cout << "FineGrid";
+	cout << "FineGrid" << endl;
 	map.buildFineGrid();
-	//map.printGrid(map.getFineGrid());
+	map.printGrid(map.getFineGrid());
 
-	cout << "CoarseGrid";
+	cout << "CoarseGrid" << endl;
 	map.buildCoarseGrid();
 	map.printGrid(map.getCoarseGrid());
 

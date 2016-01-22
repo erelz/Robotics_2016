@@ -20,31 +20,23 @@ private:
 	vector<vector<Node *> > gridGraph;
 	vector<vector<Node *> > Path;
 
-	Grid map;
-	Grid inflateMap;
+	Grid mMap;
+	Grid mInflateMap;
 
-	//original Map size
-	unsigned int mapWidth;
-	unsigned int mapHeight;
+	unsigned int mMapWidth;
+	unsigned int mMapHeight;
 
-	//grid Map size
-	unsigned int fineMapWidth;
-	unsigned int fineMapHeight;
-
-	//coarse Map size
-	unsigned int coarseMapWidth;
-	unsigned int coarseMapHeight;
-
-	//
 	float mMapResolution;
 	float mRobotSize;
-
-	//size of the robot in pixels
 	int mRobotSizeInCells;
-
 	float mInflationRadius;
 
+	unsigned int mFineMapWidth;
+	unsigned int mFineMapHeight;
 	Grid mFineGrid;
+
+	unsigned int mCoarseMapWidth;
+	unsigned int mCoarseMapHeight;
 	Grid mCoarseGrid;
 
 	bool checkIfCellIsOccupied(int i, int j);
