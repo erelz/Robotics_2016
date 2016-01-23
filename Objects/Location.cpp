@@ -14,3 +14,7 @@ Location::Location() {
 Location::Location(float x, float y, float yaw){
 	this->construct(x,y, yaw);
 }
+
+Location::Location(float x, float y){
+	this->construct(x,y, 0);
+}

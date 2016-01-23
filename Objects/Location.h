@@ -17,7 +17,9 @@ public:
 	//		Ctor
 	//**********************
 	Location();
+	Location(float x, float y);
 	Location(float x,float y, float yaw);
+
 
 	float getX() const {
 		return _x;

@@ -16,7 +16,6 @@ class Map {
 private:
 
 	vector<unsigned char> mImage;
-	vector<unsigned char> mGridImage;
 	vector<vector<Node *> > gridGraph;
 	vector<vector<Node *> > Path;
 
@@ -57,6 +56,11 @@ public:
 	void buildCoarseGrid();
 	void inflateObstacles();
 
+
+	const Grid& getMap() const {
+		return mMap;
+	}
+
 	const Grid& getCoarseGrid() const {
 		return mCoarseGrid;
 	}
@@ -67,6 +71,13 @@ public:
 
 	virtual ~Map();
 
+	unsigned int getMapHeight() const {
+		return mMapHeight;
+	}
+
+	unsigned int getMapWidth() const {
+		return mMapWidth;
+	}
 };
 
 #endif /* MAP_H_ */

@@ -12,9 +12,10 @@
 #define NON_OCCUPIED_CHAR ' '
 
 
-Map::Map(float mapResolution, float robotSize) :
-		mMapResolution(mapResolution), mRobotSize(robotSize) {
+Map::Map(float mapResolution, float robotSize) {
 
+	mRobotSize = robotSize;
+	mMapResolution = mapResolution;
 	mRobotSizeInCells = robotSize / mapResolution;
 	mInflationRadius = mRobotSize / 100 * mRobotSizeInCells;
 	cout << "inflation radius " << mInflationRadius << endl;
