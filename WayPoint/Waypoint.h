@@ -10,7 +10,6 @@
 #include <iomanip>
 #include <stdlib.h>
 #include <math.h>
-#include "Types.h"
 
 using namespace std;
 
