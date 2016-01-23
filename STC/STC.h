@@ -38,7 +38,6 @@ private:
 	Node* DFS(int x, int y);
 	void drawSpanningTree(vector<unsigned char> &image, Node* node, int mapWidth);
 	void drawLine(vector<unsigned char> &image, Node* nodeA, Node* nodeB, int mapWidth);
-
 	void buildSpanningTree(Node* node);
 
 public:

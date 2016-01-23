@@ -155,7 +155,7 @@ void STC::drawSpanningTree(vector<unsigned char> &image, Node* node, int mapWidt
 		drawLine(image, node, node->neighborsInTree[i], mapWidth);
 		drawSpanningTree(image, node->neighborsInTree[i], mapWidth);
 	}
-}s
+}
 
 void STC::drawLine(vector<unsigned char> &image, Node* nodeA , Node* nodeB, int mapWidth) {
 
